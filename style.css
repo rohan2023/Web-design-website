@@ -1,0 +1,130 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+border: 10px ridge #ff7f00;
+
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #ff5400;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #0015ff;
+  color: white;
+}
+
+h1, h2, h3, h4 {
+  color: red;
+
+}
+
+body {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 150px 1fr 60px;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+  grid-gap: 20px;
+}
+body {
+  background-color: black;
+}
+
+
+p {
+  color: #285691
+}
+
+h2 {
+  color: blue;
+}
+
+
+table.blueTable {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border: 5px solid #A40F25;
+  background-color: #E9EE84;
+  width: 96%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 4px solid #AA1802;
+  padding: 7px 8px;
+}
+table.blueTable tbody td {
+  font-size: 17px;
+  color: #330000;
+}
+table.blueTable tr:nth-child(even) {
+  background: #52C9F5;
+}
+table.blueTable td:nth-child(even) {
+  background: #51E92B;
+}
+table.blueTable thead {
+  background: #3016A4;
+  background: -moz-linear-gradient(top, #6450bb 0%, #442dad 66%, #3016A4 100%);
+  background: -webkit-linear-gradient(top, #6450bb 0%, #442dad 66%, #3016A4 100%);
+  background: linear-gradient(to bottom, #6450bb 0%, #442dad 66%, #3016A4 100%);
+  border-bottom: 2px solid #332844;
+}
+table.blueTable thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #33B0FF;
+  text-align: center;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #060000;
+  background: #000000;
+  background: -moz-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+  background: -webkit-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+  background: linear-gradient(to bottom, #404040 0%, #191919 66%, #000000 100%);
+  border-top: 10px solid #440202;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #2CABFF;
+  color: #FF2EFD;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+
+nav a.hover{
+  background-color: #0015ff
+
+}
+
+ul {
+  color: green;
+}
